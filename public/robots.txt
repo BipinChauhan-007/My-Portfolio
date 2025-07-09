@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bipin-bihari-chauhan.vercel.app/sitemap.xml
+
+# Block access to admin routes
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /scripts/
+
+# Allow images
+User-agent: *
+Allow: /images/
